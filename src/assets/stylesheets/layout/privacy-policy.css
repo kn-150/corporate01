@@ -1,0 +1,128 @@
+  .privacyPolicy_topContainer {
+    position: relative;
+    height: 600px;
+  }
+
+  .privacyPolicy_topImageContainer {
+    max-width: 78.5%;
+    max-height: 484px;
+    overflow: hidden;
+    z-index: 10;
+    position: absolute;
+  }
+  
+  .privacyPolicy_topImage {
+    width: 100%;
+  }
+  
+  .privacyPolicy_topMaskContainer {
+    max-width: 95%;
+    height: 484px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 20;
+  }
+  
+  .privacyPolicy_topMaskImage {
+    width: 100%;
+    zoom: 1.5;
+  }
+  
+  .privacyPolicy_topYellowContent {
+    background-color: #EDD100;
+    width: 65%;
+    padding-top: 37%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 0;
+  }
+  
+  .privacyPolicy_topYellowContentSecond {
+    background-color: #EDD10054;
+    width: 85%;
+    padding-top: 5%;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    z-index: 30;
+  }
+  
+  .privacyPolicy_container {
+    background:linear-gradient(90deg,#F6F6F1CC 0%,#F6F6F1CC 70%,#FFFFFF 70%,#FFFFFF 100%);
+    width: 85%;
+    height: 2900px;
+    padding:0 0 20% 15%;
+    margin-top: 400px;
+    position: relative;
+  }
+  
+  .privacyPolicy_contentContainer {
+    position: absolute;
+    top: -10%;
+  }
+  
+  
+  .privacyPolicy_basicInfo,
+  .privacyPolicy_personalInfo,
+  .privacyPolicy_otherInfo {
+    margin-top: 100px;
+  }
+  
+  .privacyPolicy_basicInfoDescription,
+  .privacyPolicy_personalInfoTextContainer,
+  .privacyPolicy_otherInfoTextContainer {
+    margin-top: 60px;
+  }
+
+  .privacyPolicy_topText > p,
+  .privacyPolicy_basicInfoDescription > p,
+  .privacyPolicy_personalInfoTextArea,
+  .privacyPolicy_personalInfoTextTitle,
+  .privacyPolicy_personalInfoSubText,
+  .privacyPolicy_otherInfoTextTitle {
+    margin-top: 25px;
+  }
+  
+  .privacyPolicy_personalInfoTitle {
+    margin-top: 60px;
+  }
+  
+  .privacyPolicy_titleUnderLine {
+    width: 7%;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+  }
+  .privacyPolicy_sentence {
+  text-indent: -1em;
+  padding-left: 3em;
+ }
+
+
+
+ @media screen and (max-width: 795px) { /* sp */
+  /* .privacyPolicy_container {
+    height: 800vw;
+  } */
+}
+
+@media screen and (max-width: 430px) { /* sp */
+  .privacyPolicy_container {
+    height: 2500px;
+  }
+  .privacyPolicy_container {
+    margin-top: 100px;
+  }
+  .privacyPolicy_basicInfo,
+  .privacyPolicy_personalInfo,
+  .privacyPolicy_otherInfo {
+    margin-top: 50px;
+  }
+  .privacyPolicy_basicInfoDescription,
+  .privacyPolicy_personalInfoTextContainer,
+  .privacyPolicy_otherInfoTextContainer {
+    margin-top: 20px;
+  }
+}

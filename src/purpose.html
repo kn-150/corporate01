@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="expires" content="604800">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <title>AWESOME SE</title>
+    <meta name="AWESOME-SE corporate" content="ホームページ">
+    <link rel="icon" href="./assets/images/common/favicon.jpeg">
+    <link rel="stylesheet" href="./assets/stylesheets/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=M+PLUS+1:wght@400;500;700&family=M+PLUS+1p:wght@100;300;400&family=M+PLUS+2:wght@400;700&family=Noto+Sans+JP&family=Noto+Sans:wght@700&family=Poppins:ital,wght@0,700;1,200&display=swap"
+      rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- ハンバーガーメニューボタン -->
+      <div class="open-btn">
+        <span></span>
+        <span></span>
+      </div>
+      <a href="index.html" class="header_logoWrapper">
+        <img class="header_navLogoPc" src="./assets/images/common/awesome-logo-w.png" alt="top_access_logo">
+      </a>
+      <a href="index.html" class="pc-none">
+        <img class="header_navLogoSp" src="./assets/images/purpose/logo.png" alt="top_access_logo">
+      </a>
+      <div class="header_nav">
+        <ul class="header_navList">
+          <li class="header_navItem pc-none">
+            <a href="index.html" class="header_menuItem">TOP</a>
+          </li>
+          <li class="header_navItem dropdown">
+            <a href="company-info.html" class="header_menuItem">企業情報</a>
+            <!-- サブメニュー -->
+            <ul class="header_subMenuList">
+              <li class="header_subMenuLinkFirst">
+                <a class="header_subMenuItemInfo" href="company-info.html#outline">会社情報</a>
+              </li>
+              <li class="header_subMenuLinkSecond">
+                <a href="purpose.html#member-introduction" class="header_subMenuItemStaff">従業員紹介 / STAFF情報</a>
+              </li>
+              <li class="header_subMenuLinkThird">
+                <a class="header_subMenuItemAccess" href="company-info.html#access-information">アクセス/MAP</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header_navItem">
+            <a href="purpose.html" class="header_menuItem">PURPOSE</a>
+          </li>
+          <li class="header_navItem">
+            <a href="ceo-message.html" class="header_menuItem">CEOメッセージ</a>
+          </li>
+          <li class="header_navItem">
+            <a href="business-content.html" class="header_menuItem">事業内容</a>
+          </li>
+          <li class="header_navItem">
+            <a href="news-top.html" class="header_menuItem">NEWS</a>
+          </li>
+          <li class="header_navItem">
+            <a href="https://www.awesomese.co.jp/partners/" class="header_menuItem">パートナー募集</a>
+          </li>
+          <li class="header_navItem">
+            <a href="https://www.awesomese.co.jp/contact/" class="header_menuItem">お問い合わせ</a>
+          </li>
+          <a href="https://recruit.awesomese.co.jp/" target="_blank" rel="noopener noreferrer" class="header_menuItem">
+            <li class="header_navItem_yellow">特設採用サイト</li>
+          </a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- top -->
+      <!-- ロード画面 -->
+      <div class="top_accessFirst pc-none">
+        <img class="top_accessLogo" src="./assets/images/common/awesome-logo-w.png" alt="top_access_logo">
+      </div>
+      <div class="purpose_topContainer">
+        <!-- 黄色の要素 -->
+        <div class="purpose_topYellowContent"></div>
+        <div class="purpose_topImageWrapper">
+          <img class="topImage" src="./assets/images/purpose/purpose-bg.png" alt="purpose_topImage">
+        </div>
+        <div class="topMaskContainer">
+          <img class="topMaskImage" src="./assets/images/purpose/mask.png" alt="purpose_topMask">
+        </div>
+        <h1 class="purpose_topPageTitle">PURPOSE</h1>
+        <div class="topYellowContentSecond"></div>
+        <!-- 黄色の要素 -->
+        <img class="top_accessLogo" src="./assets/images/common/awesome-logo-w.png" alt="top_access_logo">
+      </div>
+      <div class="purpose_topLogoContainer">
+        <img class="purpose_topLogoImage" src="./assets/images/purpose/logo.png" alt="purpose_topLogo">
+      </div>
+      <div class="purpose_topCompanyThought">
+        <div class="purpose_topCompanyThoughtImageContainer">
+          <img class="purpose_thoughtImage" src="./assets/images/purpose/logo.png" alt="purpose_topCompanyThought">
+        </div>
+        <h2 class="purpose_topTitle">「AWESOME SE」<br class="purpose_spBr">に込めた想い</h2>
+        <p class="purpose_topText">「AWESOME SE」という社名には、「働くって最高！（＝AWESOME）な社会を、働く人× IT（＝システムエンジニア）の力で実現する
+          」という意味が込められています。</p>
+      </div>
+      <!-- purpose introduction-->
+      <div class="purpose_introductionContainer">
+        <div class="purpose_introductionImageContainer">
+          <img class="purpose_introductionImage" src="./assets/images/purpose/awesome-purpose.png"
+            alt="purpose_introduction_top">
+        </div>
+        <div class="purpose_introductionTextContainer">
+          <h2 class="purpose_introductionTitle">
+            『働くって最高<br class="purpose_spBr">（AWESOME）な社会』を実現する~
+          </h2>
+          <div class="purpose_introductionText">
+            <p>AWESOME SEの目的は、「”働くって最高”な社会を実現すること」です。仕事や働くことが喜びと成長をもたらす社会を築くことを志しています。</p><br class="purpose_spBr">
+            <p>AWESOME SEは、この目的を達成するために以下の3つのValueを大切にしています。</p>
+            <dl class="purpose_introductionValue">
+              <dt class="purpose_introductionValueTitle">1.挑戦</dt>
+              <dd class="purpose_introductionValueText">
+                自分から積極的に新しいことに挑戦し、自己成長や選択肢の拡大を追求していきます！誰かに指示されるのではなく、自分の目標に向かって主体的に行動することを大切にしています。
+              </dd>
+              <dt class="purpose_introductionValueTitle">2.貢献</dt>
+              <dd class="purpose_introductionValueText">
+                自分だけでなく、自分に関わる全ての人々の幸福を追求します。なぜなら、人や会社はつながりの中で成り立っていると考え、共有と協力によって最高の環境を築くことができる。そう考えているからです。
+              </dd>
+              <dt class="purpose_introductionValueTitle">3.誠実</dt>
+              <dd class="purpose_introductionValueText">
+                正しいことを正しく実行し、約束を守る。当たり前のことを行います。そして些細な出来事にも感謝の気持ちを表すことが大切です。この価値観は私たちの行動の基本です。
+              </dd>
+            </dl>
+            <br class="purpose_spBr">
+            <p class="purpose_introductionValueSentence">
+              私たちAWESOME
+              SEは、お互いでサポートしあい、共に働くことで、自身の目的とミッションを達成することを目指しています。そして、日常生活でも、家族や友人に対しても、これらの価値観を実践します。それによってより良い社会を築いていくことを提案しています。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- value -->
+      <div class="purpose_valueContainer">
+        <div class="purpose_valueTitleContainer">
+          <img class="purpose_valueTitleMark" src="./assets/images/common/title-mark.png" alt="purpose_value_mark">
+          <h2 class="purpose_valueTitle">AWESOME SEで大切<br class="purpose_spBr">にする3つのValue</h2>
+        </div>
+        <div class="purpose_valueContent">
+          <div class="purpose_valueItem">
+            <div class="purpose_valueImageContainer">
+              <img class="purpose_valueImage" src="./assets/images/purpose/value1.png" alt="value-challenge">
+            </div>
+            <h2 class="purpose_valueItemTitle">挑戦</h2>
+            <div class="purpose_valueItemText">
+              <p>変化を楽しむ！</p>
+              <p>自ら考え行動する</p>
+            </div>
+          </div>
+          <div class="purpose_valueItem">
+            <div class="purpose_valueImageContainer">
+              <img class="purpose_valueImage" src="./assets/images/purpose/value2.png" alt="value-challenge">
+            </div>
+            <h2 class="purpose_valueItemTitle">貢献</h2>
+            <div class="purpose_valueItemText">
+              <p>自分のためだけではなく</p>
+              <p>縁のあるすべて全ての人の物心を幸せにしよう！</p>
+            </div>
+          </div>
+          <div class="purpose_valueItem">
+            <div class="purpose_valueImageContainer">
+              <img class="purpose_valueImage" src="./assets/images/purpose/value3.png" alt="value-challenge">
+            </div>
+            <h2 class="purpose_valueItemTitle">誠実</h2>
+            <div class="purpose_valueItemText">
+              <p>正しいことを正しく　約束を守り</p>
+              <p>「ありがとう・ごめんなさい」を伝えよう</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- origin -->
+      <div class="purpose_originContainer">
+        <div class="purpose_originText">
+          <div class="purpose_originLogoWrapper">
+            <h2 class="purpose_originTitle">AWESOME SEの由来</h2>
+            <div class="purpose_originLogoImageContainerSp">
+              <img class="purpose_originLogoImageSp" src="./assets/images/purpose/logo.png" alt="origin logo image">
+            </div>
+          </div>
+          <div class="purpose_originDescription">
+            <p>当社のロゴは、黄色い部分が「会社」、黒い部分が「働く人（従業員）」を表しています。</p>
+            <p>全体は、トラス構造に用いられる三角形でつくられており、強さを表現しています</p>
+            <p>これは、「働く人(従業員)」が安心して会社に腰をかけることができ、「会社」と「働く人（従業員）」が強い絆で結ばれているという想いを込めています。</p>
+          </div>
+        </div>
+        <div class="purpose_originLogoContainer">
+          <div class="purpose_originLogoImageContainer">
+            <img class="purpose_originLogoImage" src="./assets/images/purpose/logo.png" alt="origin logo image">
+          </div>
+        </div>
+      </div>
+      <!-- board members -->
+      <div class="purpose_boardMemberContainer">
+        <h2 class="purpose_boardMemberTitle">社員紹介</h2>
+        <div class="purpose_boardMemberContent">
+          <div class="purpose_boardMemberMoveRight">
+            <div class="purpose_boardMemberItemRight">
+              <div class="purpose_ImageContainer">
+                <div class="purpose_boardMemberYellowImageContainerRight">
+                  <img class="purpose_boardMemberYellowImage" src="./assets/images/purpose/item1.png"
+                    alt="yellow content">
+                </div>
+                <div class="purpose_boardMemberImageContainerRight">
+                  <img class="purpose_boardMemberImage" src="./assets/images/purpose/member/takazawa.png"
+                    alt="board-member">
+                </div>
+              </div>
+              <div class="purpose_boardMemberTextRight">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">髙澤彰男 <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">代表取締役</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>私たちAWESOME SEは『働くことが最高だ』という自主自律な人と組織（チーム）となり、クライアントに貢献し、その上で社会システムの課題を解決する商品やサービスを生み出していきます。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="purpose_boardMemberMoveLeft">
+            <div class="purpose_boardMemberItemLeft">
+              <div class="purpose_boardMemberTextLeftPc">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">八頭司 栄 <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">執行役員</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>人と何かをつなぐ”きっかけ”を提供し続けるためのビジネスを創り出すこと。そのために、自分自身のスキルや知識を高める経験をし続ける。</p>
+                </div>
+              </div>
+              <div class="purpose_ImageContainer">
+                <div class="purpose_boardMemberYellowImageContainerLeft">
+                  <img class="purpose_boardMemberYellowImage" src="./assets/images/purpose/item1.png"
+                    alt="yellow content">
+                </div>
+                <div class="purpose_boardMemberImageContainerLeft">
+                  <img class="purpose_boardMemberImage" src="./assets/images/purpose/member/yatouji.png"
+                    alt="board-member">
+                </div>
+              </div>
+              <div class="purpose_boardMemberTextLeftSp">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">八頭司 栄 <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">執行役員</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>人と何かをつなぐ”きっかけ”を提供し続けるためのビジネスを創り出すこと。そのために、自分自身のスキルや知識を高める経験をし続ける。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="purpose_boardMemberMoveRight">
+            <div class="purpose_boardMemberItemRight">
+              <div class="purpose_ImageContainer">
+                <div class="purpose_boardMemberYellowImageContainerRight">
+                  <img class="purpose_boardMemberYellowImage" src="./assets/images/purpose/item1.png"
+                    alt="yellow content">
+                </div>
+                <div class="purpose_boardMemberImageContainerRight">
+                  <img class="purpose_boardMemberImage" src="./assets/images/purpose/member/tajima.png"
+                    alt="board-member">
+                </div>
+              </div>
+              <div class="purpose_boardMemberTextRight">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">田島慎也 <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">Co-Founder</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>九州大学経済学部/カリフォルニア大学卒。日経メーカーで法人営業として勤務したのち、退職し渡米。米企業ではデジタルマーケティング職のキャリアを積む。Jeffry
+                    Alvarado氏と共にコンピュータサイエンス学習のプラットフォームを提供するRecursion, Incを運営</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="purpose_boardMemberMoveLeft">
+            <div class="purpose_boardMemberItemLeft">
+              <div class="purpose_boardMemberTextLeftPc">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">Jeffry Alvarado <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">Co-Founder</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>カリフォルニア州立大学卒。在学中に複数のインターンシップを経験。卒業後はMeta社にソフトウェアエンジニアとして入社し、多数のプロジェクトに従事。田島 慎也氏と共にRecursion,
+                    Incを運営し、米国のソフトウェア開発技術を日本へ導入するため活動中。</p>
+                </div>
+              </div>
+              <div class="purpose_ImageContainer">
+                <div class="purpose_boardMemberYellowImageContainerLeft">
+                  <img class="purpose_boardMemberYellowImage" src="./assets/images/purpose/item1.png"
+                    alt="yellow content">
+                </div>
+                <div class="purpose_boardMemberImageContainerLeft">
+                  <img class="purpose_boardMemberImage" src="./assets/images/purpose/member/jeffry.png"
+                    alt="board-member">
+                </div>
+              </div>
+              <div class="purpose_boardMemberTextLeftSp">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">Jeffry Alvarado <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">Co-Founder</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>カリフォルニア州立大学卒。在学中に複数のインターンシップを経験。卒業後はMeta社にソフトウェアエンジニアとして入社し、多数のプロジェクトに従事。田島 慎也氏と共にRecursion,
+                    Incを運営し、米国のソフトウェア開発技術を日本へ導入するため活動中。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="purpose_boardMemberMoveRight">
+            <div class="purpose_boardMemberItemRight">
+              <div class="purpose_ImageContainer">
+                <div class="purpose_boardMemberYellowImageContainerRight">
+                  <img class="purpose_boardMemberYellowImage" src="./assets/images/purpose/item1.png"
+                    alt="yellow content">
+                </div>
+                <div class="purpose_boardMemberImageContainerRight">
+                  <img class="purpose_boardMemberImage" src="./assets/images/purpose/member/tanaka.png"
+                    alt="board-member">
+                </div>
+              </div>
+              <div class="purpose_boardMemberTextRight">
+                <div class="purpose_boardMemberIntroduction">
+                  <p class="purpose_boardMemberName">田中友彩 <small class="name_small">さん</small></p>
+                  <p class="purpose_boardMemberPost">IT技術顧問</p>
+                </div>
+                <div class="purpose_boardMemberDescription">
+                  <p>
+                    多岐に渡る開発を手掛けるフルスタックエンジニア。サイバーエージェント社において複数のサービス立ち上げに携わり、開発責任者も務める。2023年に合同会社FullStackを設立し、現在は企業の技術顧問やアプリ開発なども請け負う。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_menuContainer">
+        <div class="footer_menuContent_top">
+          <a href="privacy-policy.html" class="footer_menuItem">
+            プライバシーポリシー
+          </a>
+          <p>/</p>
+          <a href="https://recruit.awesomese.co.jp/" target="_blank" rel="noopener noreferrer" class="footer_menuItem">
+            特設採用サイト
+          </a>
+        </div>
+        <div class="footer_menuContent">
+          <a href="company-info.html" class="footer_menuItem">企業情報</a>
+          <a href="purpose.html" class="footer_menuItem">PURPOSE</a>
+          <a href="ceo-message.html" class="footer_menuItem">CEOメッセージ</a>
+          <a href="business-content.html" class="footer_menuItem">事業内容</a>
+          <a href="news-top.html" class="footer_menuItem">NEWS</a>
+          <a href="https://www.awesomese.co.jp/partners/" class="footer_menuItem">パートナー募集</a>
+          <a href="https://www.awesomese.co.jp/contact/" class="footer_menuItem">お問い合わせ</a>
+        </div>
+      </div>
+      <div class="footer_infoContainer">
+        <a href="index.html">
+          <img class="footer_infoLogo" src="./assets/images/common/footer-logo-w.png" alt="footer-logo">
+        </a>
+        <div class="footer_infoContent">
+          <p class="footer_infoText">株式会社AWESOME SE</p>
+          <p class="footer_infoText">〒150-0043</p>
+          <p class="footer_infoText">東京都渋谷区道玄坂1-21-1 SHIBUYA SOLASTA3F</p>
+        </div>
+      </div>
+      <div class="footer_otherLinks">
+        <a href="https://www.wantedly.com/companies/company_4263103" target="_blank" rel="noreferrer">
+          <img src="./assets/images/common/wantedly.png" class="footer-wantedlyLink">
+        </a>
+        <a href="https://www.wantedly.com/companies/company_4263103" target="_blank" rel="noreferrer">
+          <img src="./assets/images/common/x.png" class="footer-xLink">
+        </a>
+      </div>
+      <small class="footer_copyright">
+        Copyright &copy; AWESOME SE All Rights Reserved.
+      </small>
+    </footer>
+  </body>
+
+</html>

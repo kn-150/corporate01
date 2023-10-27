@@ -1,0 +1,883 @@
+/* header ================================================*/
+.header_navList {
+  font-family: 'M PLUS 2', sans-serif;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .header_navList {
+    font-size: 1vw;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .header_navList {
+    font-size: 10px;
+  }
+}
+
+
+/* footer ================================================*/
+.footer_menuContent_top,
+.footer_infoText {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.footer_menuItem {
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.footer_copyright {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .footer_copyright {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .footer_copyright {
+    font-size: 7px;
+  }
+
+  .footer_menuContent_top,
+  .footer_menuContent,
+  .footer_infoText {
+    font-size: 9px;
+  }
+}
+
+/* top ======================================================*/
+/* top font-family===============================*/
+.top_mainTitle,
+.top_accessTitle,
+.top_newsItemDate,
+.top_viewAll,
+.top_viewAllThird,
+.top_businessSentence,
+.top_businessContent {
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.top_newsItemText {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.top_mainSubTitle,
+.top_accessSubTitle {
+  font-family: 'Inter', sans-serif;
+}
+
+.top_newsTitle,
+.top_companyMissionPurposeText,
+.top_companyMissionMessageText,
+.top_businessMainTitle,
+.top_companyInfoTitle,
+.top_partnerTitle,
+.top_othersTitleRecruit,
+.top_othersTitleContact,
+.topPageTitle,
+.topPageTitleBottom {
+  font-family: 'Poppins', sans-serif;
+}
+
+.top_companyMissionTitleP,
+.top_companyMissionTitleM,
+.top_companyMissionDescription,
+.top_companyInfoText,
+.top_partnerText {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+/* top font-style =======================================*/
+.top_accessText,
+.top_companyMissionTitleP,
+.top_companyMissionTitleM,
+.top_companyMissionSentence,
+.top_companyMissionDescription,
+.top_mainTextContainer,
+.top_companyMissionPurposeText,
+.top_companyMissionMessageText,
+.top_businessItemTextSES,
+.top_businessItemTextEntrustment,
+.top_businessItemTextDevelopment,
+.top_businessItemTextEducation,
+.top_companyInfoContainer,
+.top_partnerContainer,
+.top_othersTitleRecruit,
+.top_othersTitleContact {
+  color: #FFFFFF;
+}
+
+/* top font-size =========================================*/
+.top_accessTitle,
+.top_mainTitle,
+.top_companyMissionTitleP,
+.top_companyMissionTitleM,
+.top_businessMainTitle,
+.top_businessSentence,
+.top_businessItemTextSES,
+.top_businessItemTextEntrustment,
+.top_businessItemTextDevelopment,
+.top_businessItemTextEducation,
+.top_companyInfoTitle,
+.top_partnerTitle,
+.top_othersTitleRecruit,
+.top_othersTitleContact {
+  font-weight: bold;
+}
+
+.top_viewAllThird,
+.top_viewAll {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .top_accessTitle,
+  .top_mainTitle {
+    font-size: 51px;
+  }
+
+  .topPageTitle {
+    font-size: 51px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  .topPageTitleBottom {
+    font-size: 51px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  .top_accessSubTitle,
+  .top_mainSubTitle {
+    font-size: 44px;
+    font-weight: 300;
+  }
+
+  .top_newsTitle {
+    font-size: 35px;
+  }
+
+  .top_companyMissionTitleP,
+  .top_companyMissionTitleM {
+    font-size: 2vw;
+  }
+
+  .top_companyMissionPurposeText,
+  .top_companyMissionMessageText {
+    font-size: 2vw;
+  }
+
+  .top_companyMissionDescription,
+  .top_companyMissionSentence {
+    font-size: 1vw;
+  }
+
+  .top_businessMainTitle {
+    font-size: 35px;
+  }
+
+  .top_businessSentence {
+    margin-top: 30px;
+  }
+
+  .top_businessItemTextSES,
+  .top_businessItemTextEntrustment,
+  .top_businessItemTextDevelopment,
+  .top_businessItemTextEducation {
+    font-size: 27px;
+  }
+
+  .top_companyInfoTitle {
+    font-size: 35px;
+  }
+
+  .top_companyInfoText {
+    font-size: 18px;
+  }
+
+  .top_partnerTitle {
+    font-size: 35px;
+  }
+
+  .top_partnerText {
+    font-weight: 400;
+  }
+
+  .top_othersTitleRecruit,
+  .top_othersTitleContact {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp */
+  .top_accessTitle,
+  .top_mainTitle {
+    font-size: 27px;
+  }
+
+  .top_accessSubTitle {
+    font-size: 17px;
+  }
+
+  .top_newsTitle {
+    font-size: 20px;
+  }
+
+  .top_newsItemDate,
+  .top_newsItemText {
+    font-size: 11px;
+  }
+
+  .top_viewAll,
+  .top_viewAllThird {
+    font-size: 10px;
+  }
+
+  .top_companyMissionTitleP,
+  .top_companyMissionTitleM {
+    font-size: 4vw;
+  }
+
+  .top_companyMissionDescription,
+  .top_companyMissionSentence {
+    font-size: 10px;
+  }
+
+  .top_companyMissionPurposeText,
+  .top_companyMissionMessageText {
+    font-size: 4vw;
+  }
+
+  .top_businessMainTitle {
+    font-size: 20px;
+  }
+
+  .top_businessSentence {
+    font-size: 11px;
+  }
+
+  .top_businessItemTextSES,
+  .top_businessItemTextEntrustment,
+  .top_businessItemTextDevelopment,
+  .top_businessItemTextEducation {
+    font-size: 16px;
+  }
+
+  .top_companyInfoTitle {
+    font-size: 20px;
+  }
+
+  .top_companyInfoText {
+    font-size: 14px;
+  }
+
+  .top_partnerTitle {
+    font-size: 20px;
+  }
+
+  .top_partnerText {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .top_othersTitleRecruit,
+  .top_othersTitleContact {
+    font-size: 16px;
+  }
+}
+
+/* company-info ================================================*/
+
+.companyInfo_outlineTitle,
+.companyInfo_outlineItemTitle,
+.companyInfo_officeTitle,
+.companyInfo_accessTitle,
+.companyInfo_accessImageTitle {
+  font-family: 'Poppins', sans-serif;
+}
+
+.companyInfo_outlineItemDescription,
+.companyInfo_officeText,
+.companyInfo_accessContentTextShibuya,
+.companyInfo_accessContentTextOsaka {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.companyInfo_officeTextShibuya,
+.companyInfo_officeTextOsaka {
+  color: #FFFFFF;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .companyInfo_mainTitle {
+    font-size: 51px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFFFFF;
+    }
+
+  .companyInfo_outlineTitle,
+  .companyInfo_accessTitle {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .companyInfo_outlineItemTitle {
+    font-weight: 400;
+  }
+
+  .companyInfo_officeTitle {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .companyInfo_accessImageTitleShibuyaPc {
+    font-size: 6.5vw;
+    color: #555555;
+    font-style: italic;
+    font-weight: 250;
+    letter-spacing: 20px;
+  }
+
+  .recruitment_linkContentText-sp {
+    color: #FFFFFF;
+  }
+
+  .recruitment_linkButton-pc {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+
+  .companyInfo_mainTitle {
+    font-size: 20px;
+  }
+
+  .companyInfo_outlineItem {
+    font-size: 11px;
+  }
+
+  .companyInfo_accessImageTitleShibuyaSp,
+  .companyInfo_accessImageTitleOsakaSp {
+    font-size: 50px;
+    color: #555555;
+    font-style: italic;
+    font-weight: 250;
+    letter-spacing: 5px;
+  }
+
+  .companyInfo_officeTitle,
+  .companyInfo_accessTitle {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  .companyInfo_accessContentTextShibuya {
+    font-size: 11px;
+  }
+
+  .recruitment_linkContentText-sp,
+  .recruitment_linkButton-sp {
+    color: #FFFFFF;
+  }
+
+  .recruitment_linkContentTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+  }
+
+  .recruitment_linkButton-sp {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+/* purpose==================================== */
+.purpose_topTitle,
+.purpose_topText,
+.purpose_introductionTextContainer,
+.purpose_valueItemText,
+.purpose_originDescription,
+.purpose_boardMemberPost,
+.purpose_boardMemberDescription {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.purpose_valueTitle,
+.purpose_valueItemTitle,
+.purpose_originTitle,
+.purpose_boardMemberTitle,
+.purpose_boardMemberName,
+.name_small,
+.topPageTitle,
+.purpose_topPageTitle {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .purpose_topPageTitle {
+    font-size: 51px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  .purpose_topTitle {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .purpose_topText {
+    letter-spacing: 3px;
+  }
+
+  .purpose_introductionTextContainer {
+    font-size: 1.2vw;
+  }
+
+  .purpose_introductionTitle {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .purpose_valueTitle,
+  .purpose_valueItemTitle {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .purpose_originTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .purpose_originDescription {
+    color: #FDFDFD;
+    line-height: 2;
+    font-size: 16px;
+  }
+
+  .purpose_boardMemberTitle {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .purpose_boardMemberName {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .purpose_boardMemberItem {
+    font-size: 18px;
+  }
+
+  .purpose_boardMemberDescription {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .purpose_boardMemberPost {
+    font-weight: 700;
+  }
+
+  .name_small {
+    font-size: 20px;
+  }
+
+  .topPageTitle {
+    color: #FFFFFF;
+    font-size: 51px;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .purpose_topTitle {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.7;
+  }
+
+  .purpose_topText {
+    font-size: 11px;
+    line-height: 2.5;
+    letter-spacing: 2px;
+  }
+
+  .topPageTitle {
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .topPageTitleBottom {
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+
+  .purpose_introductionTextContainer {
+    color: #FFFFFF;
+  }
+
+  .purpose_introductionTitle {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .purpose_introductionText {
+    line-height: 2.2;
+  }
+
+  .purpose_introductionValueTitle {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .purpose_introductionValueText,
+  .purpose_introductionValueSentence,
+  .purpose_introductionText {
+    font-size: 11px;
+  }
+
+  .purpose_valueTitle {
+    font-size: 20px;
+  }
+
+  .purpose_valueItemTitle {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .purpose_valueItemText {
+    line-height: 2;
+    font-weight: 500;
+  }
+
+  .purpose_originTitle {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .purpose_originDescription {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 3;
+  }
+
+  .purpose_boardMemberTitle {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  .purpose_boardMemberName {
+    color: #FFFFFF;
+    font-size: 32px;
+  }
+
+  .purpose_boardMemberPost {
+    background-color: #FFFFFF;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .purpose_boardMemberDescription {
+    color: #FFFFFF;
+    line-height: 2.5;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+
+}
+
+/* ceo-message========================================== */
+.ceoMessage_title,
+.message_backgroundTitle {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ceoMessage_name,
+.ceoMessage_subTitle,
+.ceoMessage_description,
+.ceoMessage_subText {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .ceoMessage_title {
+    font-size: 35px;
+  }
+
+  .ceoMessage_name {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .ceoMessage_subTitle {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .ceoMessage_description,
+  .ceoMessage_subText {
+    line-height: 2;
+  }
+
+  .message_backgroundTitle {
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 140px;
+    color: #bebebe2c;
+    ;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp */
+  .ceoMessage_title {
+    font-size: 20px;
+  }
+  .ceoMessage_name {
+    font-size: 15px;
+  }
+  .ceoMessage_subTitle {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+}
+
+
+
+/* business-content======================================== */
+
+.businessContent_title {
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.businessContent_subTitle,
+.businessContent_contentItemSentencePc,
+.businessContent_languagePc,
+.businessContent_contentItemSentenceSp,
+.businessContent_languageSp {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.businessContent_contentItemTitle {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+
+  .businessContent_title {
+    font-weight: 700;
+    font-size: 49px;
+  }
+
+  .businessContent_subTitle {
+    font-size: 24px;
+  }
+
+  .businessContent_contentItemTitle {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .businessContent_contentItemSentencePc,
+  .businessContent_languagePc {
+    line-height: 2;
+    letter-spacing: 3px;
+  }
+
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .businessContent_title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .businessContent_subTitle {
+    font-size: 12px;
+  }
+
+  .businessContent_contentItemTitle {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+
+  .businessContent_contentItemSentenceSp,
+  .businessContent_languageSp {
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+}
+
+
+/* news-top=============================================================== */
+
+.newsTop_title {
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.newsTop_subTitle,
+.newsTop_ItemDate,
+.newsTop_ItemTitle {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.newsTop_contentTitle,
+.newsTop_checkBoxList,
+.newsTop_ItemCategory {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+
+  .newsTop_title {
+    font-size: 49px;
+    font-weight: 700;
+  }
+
+  .newsTop_subTitle {
+    font-size: 24px;
+  }
+
+  .newsTop_contentTitle {
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .newsTop_checkBoxList {
+    font-size: 24px;
+  }
+
+  .newsTop_ItemCategory {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .newsTop_contentTitle {
+    font-size: 40px;
+  }
+
+}
+
+/* news-detail=============================================================== */
+
+.newsDetail_title {
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.newsDetail_date,
+.newsDetail_text {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.newsDetail_category {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .newsDetail_title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .newsDetail_category {
+    font-size: 20px;
+  }
+
+  .newsDetail_text {
+    line-height: 2;
+  }
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+  .newsDetail_title {
+    font-size: 20px;
+  }
+}
+
+/* privacyPolicy=============================================================== */
+
+
+.privacyPolicy_topText,
+.privacyPolicy_basicInfoDescription,
+.privacyPolicy_personalInfoTextContainer,
+.privacyPolicy_otherInfoTextContainer {
+  font-family: 'M PLUS 1', sans-serif;
+  line-height: 2;
+}
+
+.privacyPolicy_basicInfoTitle,
+.privacyPolicy_personalInfoTitle,
+.privacyPolicy_otherInfoTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.privacyPolicy_personalInfoTextTitle,
+.privacyPolicy_otherInfoTextTitle {
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 796px) { /* pc */
+
+}
+
+
+@media screen and (max-width: 795px) { /* sp */
+
+}
+
+@media screen and (max-width: 430px) { /* sp */
+  p,li {
+    font-size: 11px;
+  }
+  .privacyPolicy_basicInfoTitle,
+  .privacyPolicy_personalInfoTitle,
+  .privacyPolicy_personalInfoTitle,
+  .privacyPolicy_personalInfoTitle,
+  .privacyPolicy_personalInfoTitle,
+  .privacyPolicy_otherInfoTitle {
+    font-size: 15px;
+  }
+
+}
+

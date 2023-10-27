@@ -1,0 +1,111 @@
+.newsDetail_sp {
+  display: none;
+}
+.text_blue {
+  color: cornflowerblue;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .newsDetail_content {
+    margin-top: 10%;
+    height: 300px;
+    padding: 0 10%;
+  }
+  .newsDetail_date,
+  .newsDetail_title,
+  .newsDetail_category {
+    text-align: center;
+  }
+  .newsDetail_date {
+    margin-top: 100px;
+  }
+  .newsDetail_category{
+    margin-top: 50px;
+  }
+  .newsDetail_description{
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 80%;
+  }
+  .newsDetail_text + .newsDetail_text {
+    margin-top: 30px;
+  }
+  .newsDetail_btnContainer {
+    margin: 20% 0 0 80%;
+  }
+  .newsDetail_btnImage {
+    width: 100%;
+  }
+  .newsDetail_background {
+    background:linear-gradient(90deg,#F6F6F1CC 0%,#F6F6F1CC 85%,#FFFFFF 85%,#FFFFFF 100%);
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp */
+  .newsDetail_sp {
+    display: block;
+  }
+  .newsDetail_grayBox {
+    display: flex;
+    position: relative;
+  }
+  .newsDetail_deepgrayBox {
+    width: 115px;
+    height: 28px;
+    background-color: rgba(168, 167, 167, 0.44);
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    z-index: 10;
+  }
+  .newsDetail_thingrayBox {
+    width: 102px;
+    height: 41px;
+    background-color: rgba(217, 217, 217, 0.27);
+    position: absolute;
+    top:77%;
+    left: 0;
+    z-index: 1;
+  }
+  .newsDetail_topImage {
+    width: 100%;
+  }
+  .newsDetail_topMaskImage {
+    width: 100%;
+  }
+  .newsDetail_content {
+    padding: 40px;
+    margin-top: 150px;/* グレーボックスの一時的な高さ調整 */
+    height: 260px;
+  }
+  .newsDetail_title {
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .newsDetail_date {
+    margin-bottom: 20px;
+  }
+  .newsDetail_text {
+    margin-top: 30px;
+    line-height: 2rem;
+  }
+  .newsDetail_btnContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: right;
+  }
+  .newsDetail_background {
+    background:linear-gradient(90deg,#F6F6F1CC 0%,#F6F6F1CC 90%,#FFFFFF 90%,#FFFFFF 100%);
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .newsDetail_deepgrayBox {
+    top: 45%;
+  }
+  .newsDetail_thingrayBox {
+    top:46.5%;
+  }
+}

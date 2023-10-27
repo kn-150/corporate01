@@ -1,0 +1,384 @@
+
+
+@media screen and (min-width: 796px) { /* pc */
+
+  .header {
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0%;
+    padding: 20px;
+    background-color: #55555593;
+  }
+
+  .header_nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    gap: 10%;
+    width: 100%;
+  }
+
+  .header_nav > a {
+    width: 18%;
+  }
+
+  .header_navLogoSp,
+  .header_navLogoSp > a {
+    display: none;
+  }
+
+  .header_logoWrapper {
+    width: 25%;
+  }
+
+  .header_navLogoPc {
+    width: 100%;
+  }
+
+  .header_navList {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header_navItem_yellow {
+    text-align: center;
+    background-color: #EDD100;
+    color: #000000;
+    width: 110%;
+    padding: 10px 15px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .3s;
+  }
+
+  .header_navItem_yellow:hover {
+    color: #fff;
+  }
+
+  .header_navItem:hover {
+    border-bottom: 2px solid #fff;
+    transition:all .3s;
+  }
+
+  /* submenu */
+  .header_navList {
+    position: relative;
+  }
+
+  .header_subMenuList {
+    display: none;
+    width: 86vw;
+    position: absolute;
+    padding-top: 100px;
+    right: 5%;
+    transition: all .3s;
+  }
+
+  .dropdown:hover .header_subMenuList {
+    display: flex;
+  }
+
+  .header_subMenuLinkFirst,
+  .header_subMenuLinkSecond,
+  .header_subMenuLinkThird {
+    height: 28vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header_subMenuLinkFirst {
+    background-image: url("/assets/images/company/outline.png");
+    background-size: cover;
+  }
+  .header_subMenuLinkSecond {
+    background-image: url("/assets/images/company/office.png");
+    background-size: cover;
+  }
+  .header_subMenuLinkThird {
+    background-image: url("/assets/images/company/access.png");
+    background-size: cover;
+  }
+
+  .header_subMenuItemInfo:hover,
+  .header_subMenuItemStaff:hover,
+  .header_subMenuItemAccess:hover {
+    color: #999999;
+    transition: all .3s;
+  }
+
+  .header_subMenuLink {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .header_subMenuItemInfo,
+  .header_subMenuItemStaff,
+  .header_subMenuItemAccess {
+    position: relative;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+  }
+  .header_subMenuItemInfo:before,
+  .header_subMenuItemInfo:after,
+  .header_subMenuItemStaff:before,
+  .header_subMenuItemStaff:after,
+  .header_subMenuItemAccess:before,
+  .header_subMenuItemAccess:after {
+    content:'';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .header_subMenuItemInfo:hover::before,
+  .header_subMenuItemStaff:hover::before,
+  .header_subMenuItemAccess:hover::before {
+    border-left: solid 2px #fff;
+    border-top: solid 2px #fff;
+    top: -40%;
+    left: -10%;
+    transition: all .3s;
+  }
+  .header_subMenuItemInfo:hover::after,
+  .header_subMenuItemStaff:hover::after,
+  .header_subMenuItemAccess:hover::after {
+    border-right: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+    bottom: -40%;
+    right: -10%;
+    transition: all .3s;
+  }
+
+}
+
+@media screen and (max-width: 795px) { /* sp */
+
+  /*==================================================
+  　ハンバーガーメニューボタン
+  ===================================*/
+  .open-btn{
+    /*ボタン内側の基点となるためrelativeを指定。
+  追従するナビゲーションの場合はfixed＋top、rightといった位置をセットで指定*/
+    position: fixed;
+    z-index: 9999;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height:50px;
+    cursor: pointer;
+    color:#000;
+  }
+
+  /*ボタン内側*/
+  .open-btn span{
+    display: inline-block;
+    transition: all .4s;/*アニメーションの設定*/
+    position: absolute;
+    right: 12px;
+    height: 2px;
+    background-color: #000;
+    }
+
+  .open-btn span:nth-of-type(1) {
+    top:22px;
+    width: 60%;
+  }
+
+  .open-btn span:nth-of-type(2) {
+    top:29px;
+    width:40%;
+  }
+
+  /*activeクラスが付与されると線が回転して×に*/
+
+  .open-btn.active span:nth-of-type(1) {
+    top: 20px;
+    right: 16px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 35%;
+  }
+
+  .open-btn.active span:nth-of-type(2) {
+    top: 32px;
+    right: 16px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 35%;
+  }
+
+
+  .header_nav {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: -120%;
+    height: 100vh;
+    transition: all 0.6s;
+    background:linear-gradient(90deg,#555555C4 0%,#555555C4 40%, #EDD100 40%, #EDD100 100%);
+  }
+
+  /*アクティブクラスがついたら位置を0に*/
+  .header_nav.panel-active{
+    right: 0;
+  }
+
+  .header_nav ul {
+    /*ナビゲーション天地中央揃え*/
+    position: absolute;
+    z-index: 999;
+    top:50%;
+    left:60%;
+    transform: translate(-50%,-50%);
+  }
+
+
+  .header_navLogoPc {
+    display: none;
+  }
+
+  .pc-none > .header_navLogoSp {
+    width: 40px;
+    padding-top: 5px;
+    position: fixed;
+  }
+  .header_navItem {
+    padding: 30px 0 0 10px;
+    color: #000000;
+  }
+
+  .header_navItem_yellow {
+    text-align: center;
+    border: 1px solid #000000;
+    border-color: #000000;
+    color: #000000;
+    width: 120%;
+    padding: 10% 20%;
+    margin: 40px 0 0 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .3s;
+  }
+
+
+  /* submenu */
+  .header_navList {
+    position: relative;
+  }
+
+  .header_subMenuList {
+    display: none;
+    width: 86vw;
+    position: absolute;
+    padding-top: 100px;
+    right: 5%;
+    transition: all .3s;
+  }
+
+  /* .dropdown:hover .header_subMenuList {
+    display: flex;
+  } */
+
+  .header_subMenuLinkFirst,
+  .header_subMenuLinkSecond,
+  .header_subMenuLinkThird {
+    height: 28vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header_subMenuLinkFirst {
+    background-image: url("/assets/images/company/outline.png");
+    background-size: cover;
+  }
+  .header_subMenuLinkSecond {
+    background-image: url("/assets/images/company/office.png");
+    background-size: cover;
+  }
+  .header_subMenuLinkThird {
+    background-image: url("/assets/images/company/access.png");
+    background-size: cover;
+  }
+
+  /* .header_subMenuItem::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #3492d1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
+
+  .header_subMenuItemInfo:hover,
+  .header_subMenuItemStaff:hover,
+  .header_subMenuItemAccess:hover {
+    color: #999999;
+    transition: all .3s;
+  }
+
+  .header_subMenuLink {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .header_subMenuItemInfo,
+  .header_subMenuItemStaff,
+  .header_subMenuItemAccess {
+    position: relative;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+  }
+  .header_subMenuItemInfo:before,
+  .header_subMenuItemInfo:after,
+  .header_subMenuItemStaff:before,
+  .header_subMenuItemStaff:after,
+  .header_subMenuItemAccess:before,
+  .header_subMenuItemAccess:after {
+    content:'';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .header_subMenuItemInfo:hover::before,
+  .header_subMenuItemStaff:hover::before,
+  .header_subMenuItemAccess:hover::before {
+    border-left: solid 2px #fff;
+    border-top: solid 2px #fff;
+    top: -40%;
+    left: -10%;
+    transition: all .3s;
+  }
+  .header_subMenuItemInfo:hover::after,
+  .header_subMenuItemStaff:hover::after,
+  .header_subMenuItemAccess:hover::after {
+    border-right: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+    bottom: -40%;
+    right: -10%;
+    transition: all .3s;
+  }
+}

@@ -1,0 +1,162 @@
+@media screen and (min-width: 796px) {
+
+  /* pc */
+  .topPageTitleBottom {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    z-index: 50;
+  }
+
+  .newsTop {
+    height: 600px;
+  }
+
+  .topImageNews {
+    width: 97%;
+  }
+
+  .newsTop_container {
+    margin: 200px 0;
+  }
+
+  .newsTop_title {
+    text-align: center;
+  }
+
+  .newsTop_subTitle {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .newsTop_contentText {
+    display: flex;
+    align-items: center;
+    margin: 130px 0 0 10%;
+  }
+
+  .newsTop_checkBoxList {
+    display: flex;
+    gap: 15%;
+    margin-left: 15%;
+  }
+
+  .newsTop_contentItemContainer {
+    margin-top: 5%;
+  }
+
+  .newsTop_contentItemContainer {
+    margin-left: 33%;
+  }
+
+  .newsTop_contentItem+.newsTop_contentItem {
+    padding-top: 50px;
+    margin-top: 50px;
+    border-top: 1px solid;
+  }
+
+  .newsTop_ItemInfo {
+    display: flex;
+  }
+
+  .newsTop_ItemDate {
+    width: 25%;
+  }
+
+  .newsTop_ItemTitle {
+    margin-top: 40px;
+  }
+
+  .newsTop_checkBoxItem {
+    display: flex;
+  }
+}
+
+
+@media screen and (max-width: 795px) {
+
+  /* sp */
+  .sp-hidden {
+    display: none;
+  }
+
+  .topImageNews {
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+  }
+
+  .newsTop_grayBox {
+    display: flex;
+    position: relative;
+  }
+
+  .newsTop_deepgrayBox {
+    width: 115px;
+    height: 28px;
+    background-color: rgba(168, 167, 167, 0.44);
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    z-index: 10;
+  }
+
+  .newsTop_thingrayBox {
+    width: 102px;
+    height: 41px;
+    background-color: rgba(217, 217, 217, 0.27);
+    position: absolute;
+    top: 77%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .newsTop_container {
+    padding: 40px;
+  }
+
+  .newsTop_contentTitle {
+    border-bottom: 2px solid #000;
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .newsTop_checkBoxList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .newsTop_contentItem {
+    border-bottom: 1px solid #000;
+    padding: 20px;
+  }
+
+  .newsTop_contentItem:last-child {
+    border-bottom: 0;
+  }
+
+  .newsTop_ItemInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .newsTop_ItemDate {
+    margin-bottom: 20px;
+  }
+
+  .newsTop_ItemTitle {
+    line-height: 2em;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .newsTop_deepgrayBox {
+    top: 45%;
+  }
+
+  .newsTop_thingrayBox {
+    top: 46.5%;
+  }
+}

@@ -1,0 +1,133 @@
+/* 共通 */
+.ceoMessage_sp {
+  display: none;
+}
+
+@media screen and (min-width: 796px) { /* pc */
+  .topImageMessageSp {
+    display: none;
+  }
+
+  .topImageMessage {
+    width: 97%;
+  }
+
+  .ceoMessage_container {
+    background:linear-gradient(90deg,#F6F6F1 0%,#F6F6F1 70%,#FFFFFF 70%,#FFFFFF 100%);
+    position: relative;
+    margin-top: 10%;
+    height: 1000px;
+  }
+  .message_backgroundTitle {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .message_wrapper {
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    padding: 5%;
+  }
+  .message_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .ceoMessage_text {
+    width: 50%;
+  }
+  .ceoMessage_imageContainer {
+    width: 50%;
+    position: relative;
+    z-index: 10;
+  }
+  .ceoMessage_image {
+    max-width: 95%;
+  }
+  .ceoMessage_yellowContainer {
+    position: absolute;
+    width: 15%;
+    top: 35%;
+    right: 35%;
+  }
+  .ceoMessage_yellow {
+    width: 100%;
+    height: 30vw;
+    background-color: #EDD100C7;
+  }
+  .ceoMessage_name,
+  .ceoMessage_subTitle,
+  .ceoMessage_description {
+    margin-top: 11%;
+  }
+  .ceoMessage_subText {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp */
+  .topImageMessage {
+    display: none;
+  }
+
+  .topImageMessageSp {
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 70%;
+  }
+
+  .message_topImage {
+    width: 100%;
+  }
+  .message_topMaskImage {
+    width: 100%;
+  }
+  .ceoMessage_pc {
+    display: none;
+  }
+  .ceoMessage_sp {
+    display: block;
+  }
+  .ceoMessage_container {
+    padding: 50px;
+    height: 440px;
+  }
+  .ceoMessage_title {
+    margin-bottom: 20px;
+  }
+  .ceoMessage_name {
+    margin-bottom: 40px;
+  }
+  .ceoMessage_image {
+    width: 90%;
+  }
+  .ceoMessage_imageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .ceoMessage_subTitle {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 2rem;
+  }
+  .ceoMessage_text {
+    line-height: 2rem;
+    margin-bottom: 20px;
+  }
+  .ceoMessage_background {
+    background:linear-gradient(90deg,#F6F6F1CC 0%,#F6F6F1CC 70%,#FFFFFF 70%,#FFFFFF 100%);
+    height: 1150px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .ceoMessage_deepgrayBox {
+    top: 45%;
+  }
+  .ceoMessage_thingrayBox {
+    top:46.5%;
+  }
+}

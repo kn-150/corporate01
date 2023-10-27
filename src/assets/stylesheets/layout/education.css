@@ -1,0 +1,502 @@
+/* main =================================*/
+/* main-title =================================*/
+.education_mainTitleArea {
+  padding: 100px;
+}
+.education_mainTitle {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.education_subTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* main-article =================================*/
+.pc-hidden {
+  display: none;
+}
+.education_backgroundArea {
+  background: linear-gradient(
+    90deg,
+    #f6f6f1 0%,
+    #f6f6f1 65%,
+    #ffffff 65%,
+    #ffffff 100%
+  );
+  height: 2500px;
+}
+.education_backgroundAreaReverse {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 35%,
+    #f6f6f1 35%,
+    #f6f6f1 100%
+  );
+  margin-top: 15%;
+}
+.education_contentArticleArea {
+  padding: 8% 10%;
+  position: relative;
+}
+.education_contentItemMark1 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 13%;
+  left: 8%;
+}
+.education_contentItemMark2 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 9.5%;
+  left: 8%;
+}
+.education_contentItemMark3 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 13.5%;
+  left: 8%;
+}
+.education_contentItemMark4 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 13.5%;
+  left: 8%;
+}
+.education_contentItemMark5 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 14%;
+  left: 8%;
+}
+.education_contentItemMark6 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 18%;
+  left: 8%;
+}
+.education_contentItemMark7 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 10%;
+  left: 8%;
+}
+.education_contentTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.education_contentItemText {
+  line-height: 2em;
+}
+.education_contentImage {
+  height: 480px;
+}
+.education_contentImage1 {
+  height: 480px;
+}
+.education_contentImage2 {
+  height: 480px;
+  margin-top: 150px;
+}
+.education_contentImageBoxReverse {
+  display: flex;
+  justify-content: right;
+}
+
+/* main-education =================================*/
+.education_contentEducation {
+  width: 980px;
+  height: 450px;
+  border: 1px solid #f3f3df;
+  background: #f0f0d9;
+  margin: 0 auto;
+}
+
+/* プログレスバー */
+.education_contentEducationBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* 教育内容（白ボックス） */
+.education_contentEducationDetailBox {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 0 2%;
+}
+.education_contentEducationDetail {
+  width: 300px;
+  height: 260px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+}
+.education_contentEducationDetailTitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.education_contentEducationDetailText {
+  line-height: 2em;
+}
+.education_contentEducationDetailArrow1 {
+  font-weight: bold;
+  color: #999191;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.education_contentEducationDetailArrow2 {
+  font-weight: bold;
+  color: #999191;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
+
+/* 教育制度（抹茶っぽいボックス） */
+.education_contentEducationInstitution {
+  width: 940px;
+  height: 75px;
+  border-radius: 6px;
+  background: #d7d794;
+  padding: 10px;
+  margin: 20px auto 0;
+}
+.education_contentEducationInstitutionTitle {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.education_contentEducationInstitutionText {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/* レスポンシブ */
+/* タブレット */
+@media screen and (max-width: 768px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .education_backgroundArea {
+    height: 2100px; /* グレー高さを調節し3パラグラフの文字調整 */
+  }
+  .education_mainTitle {
+    font-size: 28px;
+  }
+  .education_subTitle {
+    font-size: 18px;
+  }
+  .education_contentImage {
+    height: 280px;
+  }
+
+  /* main-article =================================*/
+  .education_contentImage1 {
+    height: 280px;
+  }
+  .education_contentImage2 {
+    height: 280px;
+    margin-top: 150px;
+  }
+  .education_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 7%;
+    left: 8%;
+  }
+  .education_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 7%;
+    left: 8%;
+  }
+  .education_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 8%;
+    left: 8%;
+  }
+  .education_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 8%;
+    left: 8%;
+  }
+  .education_contentItemMark5 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 8.5%;
+    left: 8%;
+  }
+  .education_contentItemMark6 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 11%;
+    left: 8%;
+  }
+  .education_contentItemMark7 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 4.5%;
+    left: 8%;
+  }
+  .education_contentTitle {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .education_contentItemBox {
+    display: block;
+  }
+  .education_contentItem {
+    margin: 10px auto 0;
+  }
+  .education_contentItemTitle {
+    font-size: 18px;
+  }
+
+  /* main-education =================================*/
+  .education_contentEducation {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #f3f3df;
+    background: #f0f0d9;
+    margin: 0 auto;
+  }
+
+  /* プログレスバー */
+  .education_contentEducationBarImage {
+    width: 100%;
+  }
+
+  /* 教育内容（白ボックス） */
+  .education_contentEducationDetailBox {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 2%;
+  }
+
+  .education_contentEducationDetail {
+    width: 180px;
+    height: 200px;
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+  }
+  .education_contentEducationDetailTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .education_contentEducationDetailText {
+    line-height: 2em;
+    font-size: 12px;
+  }
+  .education_contentEducationDetailArrow1 {
+    font-weight: bold;
+    color: #999191;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+  }
+  .education_contentEducationDetailArrow2 {
+    font-weight: bold;
+    color: #999191;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 教育制度（抹茶っぽいボックス） */
+  .education_contentEducationInstitution {
+    width: 94%;
+    height: 60px;
+    border-radius: 6px;
+    background: #d7d794;
+    padding: 10px;
+    margin: 20px auto 0;
+  }
+  .education_contentEducationInstitutionTitle {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .education_contentEducationInstitutionText {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width: 420px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .sp-hidden {
+    display: none;
+  }
+  .pc-hidden {
+    display: block;
+  }
+  .education_backgroundArea {
+    height: 3100px; /* グレー高さを調節し3パラグラフの文字調整 */
+  }
+
+  /* main-article =================================*/
+  .education_mainTitleArea {
+    padding: 50px;
+  }
+  .education_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 1%;
+    left: 8%;
+  }
+  .education_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 1%;
+    left: 8%;
+  }
+  .education_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 4%;
+    left: 8%;
+  }
+  .education_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 1%;
+    left: 8%;
+  }
+  .education_contentItemMark5 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 1%;
+    left: 8%;
+  }
+  .education_contentItemMark6 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 2%;
+    left: 8%;
+  }
+  .education_contentItemMark7 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 0.5%;
+    left: 8%;
+  }
+  .education_mainTitle {
+    font-size: 20px;
+  }
+  .education_subTitle {
+    font-size: 10px;
+  }
+  .education_contentImage {
+    height: 150px;
+  }
+  .education_contentImage1 {
+    height: 150px;
+  }
+  .education_contentImage2 {
+    height: 150px;
+    margin-top: 50px;
+  }
+
+  /* main-education =================================*/
+  .education_contentEducation {
+    width: 350px;
+    height: 900px;
+  }
+  .education_contentEducationBox {
+    display: flex;
+  }
+
+  /* プログレスバー */
+  .education_contentEducationBar {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+  }
+
+  /* 教育内容（白ボックス） */
+  .education_contentEducationDetailBox {
+    display: block;
+    padding: 8% 4% 8% 8%;
+  }
+  .education_contentEducationDetail {
+    width: 250px;
+    height: 222px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  .education_contentEducationDetailTitle {
+    margin-bottom: 20px;
+  }
+  .education_contentEducationDetailArrow1 {
+    font-size: 48px;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .education_contentEducationDetailArrow2 {
+    font-size: 48px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 教育制度（抹茶っぽいボックス） */
+  .education_contentEducationInstitution {
+    width: 300px;
+    height: 75px;
+    padding: 15px;
+    margin-top: 0;
+  }
+  .education_contentEducationInstitutionTitle {
+    font-size: 16px;
+  }
+  .education_contentEducationInstitutionText {
+    font-size: 14px;
+  }
+}

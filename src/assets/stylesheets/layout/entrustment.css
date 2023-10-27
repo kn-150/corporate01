@@ -1,0 +1,305 @@
+/* main =================================*/
+/* main-title =================================*/
+.entrustment_mainTitleArea {
+  padding: 100px;
+}
+.entrustment_mainTitle {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.entrustment_subTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* main-article =================================*/
+.entrustment_backgroundArea {
+  background: linear-gradient(
+    90deg,
+    #f6f6f1 0%,
+    #f6f6f1 65%,
+    #ffffff 65%,
+    #ffffff 100%
+  );
+}
+.entrustment_contentArticleArea {
+  padding: 8% 10%;
+  position: relative;
+}
+.entrustment_contentItemMark1 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 15%;
+  left: 8%;
+}
+.entrustment_contentItemMark2 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 8%;
+  left: 8%;
+}
+.entrustment_contentItemMark3 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 14%;
+  left: 8%;
+}
+.entrustment_contentItemMark4 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 36%;
+  left: 8%;
+}
+.entrustment_contentTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.entrustment_contentItemText {
+  line-height: 2em;
+}
+.entrustment_contentImage {
+  height: 480px;
+}
+/* 抹茶ボックス */
+.entrustment_contentCategoryArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  row-gap: 30px;
+  margin: 50px 0;
+}
+.entrustment_contentCategoryBox {
+  width: 100%;
+  height: 70px;
+  border-radius: 6px;
+  background: #d7d794;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entrustment_contentCategoryItem {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.entrustment_contentImageBoxReverse {
+  display: flex;
+  justify-content: right;
+}
+.entrustment_backgroundAreaHarfReverse {
+  /* 背景重ねのために設定 */
+  height: 350px;
+}
+
+/* Recru =================================*/
+.entrustment_backgroundAreaReverse {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 35%,
+    #f6f6f1 35%,
+    #f6f6f1 100%
+  );
+}
+.entrustment_recruLogo {
+  margin-top: 50px;
+  padding-left: 130px;
+}
+.entrustment_contentRecruitTitle {
+  margin: 100px 0 80px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.entrustment_sampleContainer {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  row-gap: 30px;
+  margin: 50px 80px 0;
+  padding-bottom: 50px;
+}
+.entrustment_sampleItem {
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  padding: 10px 10px 20px;
+}
+.entrustment_sampleImageBox {
+  height: 210px;
+}
+.entrustment_sampleTitle {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.entrustment_sampleCategory {
+  display: flex;
+  gap: 10px;
+}
+.entrustment_sampleCategoryText {
+  color: #44628d;
+  width: 120px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid #44628d;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entrustment_sampleCategoryDescription {
+  line-height: 2em;
+}
+
+
+/* レスポンシブ */
+/* タブレット */
+@media screen and (max-width: 768px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .entrustment_mainTitle {
+    font-size: 28px;
+  }
+  .entrustment_subTitle {
+    font-size: 18px;
+    text-align: left;
+  }
+  .entrustment_contentImage {
+    height: 280px;
+  }
+
+  /* main-article =================================*/
+  .entrustment_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 7%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 3%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 7%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 40%;
+    left: 8%;
+  }
+  .entrustment_contentTitle {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .entrustment_contentItemBox {
+    display: block;
+  }
+  .entrustment_contentItem {
+    margin: 10px auto 0;
+  }
+  .entrustment_contentItemTitle {
+    font-size: 18px;
+  }
+  /* 抹茶ボックス */
+  .entrustment_contentCategoryArea {
+    display: block;
+  }
+  .entrustment_contentCategoryBox {
+    margin-top: 20px;
+  }
+
+  /* Recru =================================*/
+  .entrustment_contentRecru {
+    padding: 0 10% 8%;
+  }
+  .entrustment_contentRecruitTitle {
+    margin: 100px 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .entrustment_recruLogo {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+  .entrustment_sampleContainer {
+    display: block;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .entrustment_sampleItem {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+
+/* スマホ */
+@media screen and (max-width: 420px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .entrustment_mainTitleArea {
+    padding: 50px;
+  }
+  .entrustment_mainTitle {
+    font-size: 20px;
+  }
+  .entrustment_subTitle {
+    font-size: 10px;
+  }
+  .entrustment_contentImage {
+    height: 150px;
+  }
+
+  /* main-article =================================*/
+  .entrustment_backgroundAreaHarfReverse {
+    /* 背景重ねのために設定 */
+    height: 550px;
+  }
+  .entrustment_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 4%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 2%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 2%;
+    left: 8%;
+  }
+  .entrustment_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 38%;
+    left: 8%;
+  }
+}

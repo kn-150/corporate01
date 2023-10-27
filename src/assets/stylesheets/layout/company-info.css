@@ -1,0 +1,756 @@
+@media screen and (min-width: 1001px) {
+
+  /* pc =====================================================*/
+  .topContainer {
+    position: relative;
+    height: 1000px;
+  }
+
+  /* header========================== */
+  /* .companyInfo_menuContainer {
+    display: none;
+  } */
+
+  /* top================================ */
+  .companyInfo_blackContent {
+    background-color: #000000;
+    width: 40%;
+    padding-top: 40%;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .companyInfo_topImageWrapper {
+    width: 80%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .topImageWrapper {
+    width: 77%;
+    height: 484px;
+    overflow: hidden;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .topImageCompanyInfo {
+    width: 100%;
+  }
+
+  .topImage {
+    width: 100%;
+  }
+
+  .topMaskContainer {
+    width: 95%;
+    height: 484px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 20;
+  }
+
+  .topMaskImage {
+    width: 100%;
+    zoom: 1.5;
+  }
+
+  .topYellowContent {
+    background-color: #EDD100;
+    width: 65%;
+    padding-top: 40%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 0;
+  }
+
+  .topYellowContentSecond {
+    background-color: #EDD10054;
+    width: 85%;
+    padding-top: 5%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 30;
+  }
+
+  .companyInfo_mainTitle {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 50;
+  }
+
+  /* outline =================================*/
+  .companyInfo_outlineContainer {
+    margin: 100px 180px;
+  }
+
+  .companyInfo_outlineContent {
+    border-top: 1px solid;
+    margin-top: 50px;
+  }
+
+  .companyInfo_outlineItem {
+    border-bottom: 1px solid;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .companyInfo_outlineItemTitle {
+    width: 300px;
+  }
+
+  /* office=================================== */
+
+  .companyInfo_officeContainer {
+    background-color: #000000;
+    height: 70vw;
+    padding-top: 90px;
+  }
+
+  .companyInfo_officeTitle {
+    margin-left: 120px;
+  }
+
+  .companyInfo_officeImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .companyInfo_officeImageWrapperLeft {
+    width: 533px;
+    position: relative;
+  }
+
+  .companyInfo_officeImageWrapperRight {
+    width: 651px;
+    position: relative;
+  }
+
+  .companyInfo_officeImageLeft,
+  .companyInfo_officeImageRight {
+    width: 100%;
+  }
+
+  .companyInfo_officeTextShibuya {
+    position: absolute;
+    top: 93%;
+    left: 75%;
+  }
+
+  .companyInfo_officeTextOsaka {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
+
+  .companyInfo_accessImageTitleShibuyaSp,
+  .companyInfo_accessImageTitleOsakaSp {
+    display: none;
+  }
+
+  /* ACCESS========================================== */
+
+  .companyInfo_accessContainer {
+    background-color: #AAAA78;
+    height: 50vw;
+  }
+
+
+  .companyInfo_accessFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .companyInfo_accessTitle {
+    /* margin-left: 100px; */
+    margin: 0 10% 10% 10%;
+  }
+
+  .companyInfo_accessImageWrapper {
+    width: 100%;
+    padding-top: 0%;
+    position: relative;
+  }
+
+  .companyInfo_accessImageShibuya {
+    width: 100%;
+  }
+
+  .companyInfo_accessImageTitleShibuyaPc {
+    position: absolute;
+    top: 55%;
+    right: 0%;
+  }
+
+  .companyInfo_accessYellowContentFirst {
+    width: 25%;
+    height: 8vw;
+    background-color: #EDD100C7;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+
+
+  .companyInfo_mapShibuya {
+    width: 70%;
+    height: 30vw;
+    position: absolute;
+    top: 57%;
+    left: -37%;
+  }
+
+  .companyInfo_mapShibuya iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .companyInfo_accessContentTextShibuya {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 8% 0 0;
+  }
+
+  .companyInfo_accessContentSentence {
+    line-height: 1.8;
+    width: 35%;
+  }
+
+
+  /* RECRUIT====================================== */
+  .recruitment_linkContainer {
+    width: 100%;
+  }
+
+  .recruitment_linkContent {
+    width: 100%;
+    background-image: url("../../images/company/recruit.png");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recruitment_linkButton-pc {
+    width: 300px;
+    height: 78px;
+    background-color: #000000;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 50%;
+  }
+
+  .recruitment_linkContentText-sp,
+  .recruitment_linkButton-sp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1000px) {
+
+  /* pc =====================================================*/
+  /* header========================== */
+  .companyInfo_menuContainer {
+    display: none;
+  }
+
+  .topContainer {
+    position: relative;
+    height: 1000px;
+  }
+
+  /* top================================ */
+  .companyInfo_blackContent {
+    background-color: #000000;
+    width: 40%;
+    padding-top: 40%;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .companyInfo_topImageWrapper {
+    width: 80%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .topImageWrapper {
+    width: 77%;
+    height: 484px;
+    overflow: hidden;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .topImageCompanyInfo {
+    width: 100%;
+  }
+
+  .topImage {
+    width: 100%;
+  }
+
+  .topMaskContainer {
+    width: 95%;
+    height: 484px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 20;
+  }
+
+  .topMaskImage {
+    width: 100%;
+    zoom: 1.5;
+  }
+
+  .topYellowContent {
+    background-color: #EDD100;
+    width: 65%;
+    padding-top: 40%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 0;
+  }
+
+  .topYellowContentSecond {
+    background-color: #EDD10054;
+    width: 85%;
+    padding-top: 5%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 30;
+  }
+
+  .companyInfo_mainTitle {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 50;
+  }
+
+  /* outline =================================*/
+  .companyInfo_outlineContainer {
+    margin: 100px 180px;
+  }
+
+  .companyInfo_outlineContent {
+    border-top: 1px solid;
+    margin-top: 50px;
+  }
+
+  .companyInfo_outlineItem {
+    border-bottom: 1px solid;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .companyInfo_outlineItemTitle {
+    width: 300px;
+  }
+
+  /* office=================================== */
+
+  .companyInfo_officeContainer {
+    background-color: #000000;
+    height: 80vw;
+    padding-top: 90px;
+  }
+
+  .companyInfo_officeTitle {
+    margin-left: 120px;
+  }
+
+  .companyInfo_officeImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .companyInfo_officeImageWrapperLeft {
+    width: 533px;
+    position: relative;
+  }
+
+  .companyInfo_officeImageWrapperRight {
+    width: 651px;
+    position: relative;
+  }
+
+  .companyInfo_officeImageLeft,
+  .companyInfo_officeImageRight {
+    width: 100%;
+  }
+
+  .companyInfo_officeTextShibuya {
+    position: absolute;
+    top: 93%;
+    left: 75%;
+  }
+
+  .companyInfo_accessImageTitleShibuyaSp,
+  .companyInfo_accessImageTitleOsakaSp {
+    display: none;
+  }
+
+  /* ACCESS========================================== */
+
+  .companyInfo_accessContainer {
+    background-color: #AAAA78;
+    height: 50vw;
+  }
+
+
+  .companyInfo_accessFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .companyInfo_accessTitle {
+    /* margin-left: 100px; */
+    margin: 0 10% 10% 10%;
+  }
+
+  .companyInfo_accessImageWrapper {
+    width: 100%;
+    padding-top: 0%;
+    position: relative;
+  }
+
+  .companyInfo_accessImageShibuya {
+    width: 100%;
+  }
+
+  .companyInfo_accessImageTitleShibuyaPc {
+    position: absolute;
+    top: 55%;
+    right: 0%;
+  }
+
+  .companyInfo_accessYellowContentFirst {
+    width: 25%;
+    height: 8vw;
+    background-color: #EDD100C7;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  }
+
+
+  .companyInfo_mapShibuya {
+    width: 70%;
+    height: 30vw;
+    position: absolute;
+    top: 57%;
+    left: -48%;
+  }
+
+  .companyInfo_mapShibuya iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .companyInfo_accessContentTextShibuya {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 3% 0 5%;
+  }
+
+  .companyInfo_accessContentSentence {
+    line-height: 1.8;
+    width: 45%;
+  }
+
+
+  /* RECRUIT====================================== */
+  .recruitment_linkContainer {
+    width: 100%;
+  }
+
+  .recruitment_linkContent {
+    width: 100%;
+    background-image: url("../../images/company/recruit.png");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recruitment_linkButton-pc {
+    width: 300px;
+    height: 78px;
+    background-color: #000000;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 50%;
+  }
+
+  .recruitment_linkContentText-sp,
+  .recruitment_linkButton-sp {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 795px) {
+
+  /* pc =====================================================*/
+  /* top========================= */
+  .companyInfo_accessImageTitleShibuyaPc,
+  .companyInfo_accessImageTitleOsakaPc,
+  .top_accessSecond,
+  .sp-none,
+  .companyInfo_blackContent,
+  .companyInfo_mainTitle,
+  .recruitment_linkButton-pc,
+  .topMaskContainer {
+    display: none;
+  }
+
+  /* .companyInfo_menuContainer,
+    .header_navList,
+    .header_nav {
+      display: none;
+    } */
+
+  /* sp top 他のページも共通*/
+  .topContainer {
+    height: 100vh;
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 20%, #EDD100 20%, #EDD100 100%);
+    position: relative;
+  }
+
+  .header_navLogoSp {
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    z-index: 5;
+    width: 53px;
+  }
+
+  .companyInfo_topImageWrapper {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+  }
+
+  .topImageWrapper {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+  }
+
+  .topImage {
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 70%;
+  }
+
+  .topPageTitle {
+    position: absolute;
+    bottom: 45%;
+    right: 5%;
+    z-index: 50;
+  }
+
+  .topPageTitleBottom {
+    position: absolute;
+    bottom: 35%;
+    right: 5%;
+    z-index: 50;
+  }
+
+  .topImageCompanyInfo {
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 70%;
+  }
+
+  .topImageWrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .companyInfo_topImageWrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .topYellowContentSp {
+    width: 75%;
+    height: 61px;
+    background-color: #EDD10054;
+    position: absolute;
+    top: 86%;
+    left: 11%;
+  }
+
+  /* outline =================================*/
+  .companyInfo_outlineContainer {
+    margin: 100px 30px;
+  }
+
+  .companyInfo_outlineTitle {
+    text-align: center;
+  }
+
+  .companyInfo_outlineContent {
+    border-top: 1px solid;
+    margin-top: 50px;
+  }
+
+  .companyInfo_outlineItem {
+    border-bottom: 1px solid;
+    margin-top: 40px;
+    padding: 0 20px 40px 20px;
+  }
+
+  .companyInfo_outlineItemDescription {
+    margin-top: 20px;
+    line-height: 2;
+  }
+
+  /* OFFICE =================================*/
+  .companyInfo_officeImageContainer {
+    margin-top: 50px;
+  }
+
+  .companyInfo_officeTitle {
+    text-align: center;
+  }
+
+  .companyInfo_accessImageTitleShibuyaSp,
+  .companyInfo_accessImageTitleOsakaSp {
+    background-color: #000000D9;
+    text-align: right;
+    padding: 30px 0;
+  }
+
+  .companyInfo_officeImageWrapperLeft,
+  .companyInfo_officeImageWrapperRight {
+    position: relative;
+  }
+
+  .companyInfo_officeImageLeft,
+  .companyInfo_officeImageRight {
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+  }
+
+  .companyInfo_officeTextShibuya,
+  .companyInfo_officeTextOsaka {
+    position: absolute;
+    top: 92%;
+    left: 62%;
+  }
+
+  /* ACCESS ==================================*/
+  .companyInfo_accessImageShibuya,
+  .companyInfo_accessImageOsaka,
+  .companyInfo_accessYellowContentFirst,
+  .companyInfo_accessYellowContentSecond,
+  .companyInfo_mapOsakaPc {
+    display: none;
+  }
+
+  .companyInfo_accessContainer {
+    margin-top: 100px;
+  }
+
+  .companyInfo_accessTitle {
+    text-align: center;
+  }
+
+  .companyInfo_mapShibuya {
+    width: 100%;
+    height: 281px;
+    margin-top: 40px;
+  }
+
+  .companyInfo_mapShibuya iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .companyInfo_accessContentTextShibuya {
+    margin: 30px;
+  }
+
+  .companyInfo_accessContentSentence {
+    line-height: 3;
+  }
+
+  .companyInfo_accessContentTextOsaka {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* recruit=================================== */
+  .recruitment_linkContent {
+    width: 100%;
+    background-image: url("../../images/company/recruit.png");
+    background-size: cover;
+    background-position: -600px;
+    height: 540px;
+  }
+
+  .recruitment_linkContentText-sp {
+    padding-top: 300px;
+  }
+
+  .recruitment_linkContentTitle {
+    width: 90%;
+    text-align: center;
+  }
+
+  .recruitment_linkContentSubTitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .recruitment_linkButton-sp {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .recruitment_linkButton-sp>button {
+    width: 45%;
+    height: 10vw;
+    background-color: #000000;
+    text-align: center;
+  }
+}

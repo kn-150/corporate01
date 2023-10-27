@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="expires" content="604800">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <title>AWESOME SE</title>
+    <meta name="AWESOME-SE corporate" content="ホームページ">
+    <link rel="icon" href="./assets/images/common/favicon.jpeg">
+    <link rel="stylesheet" href="./assets/stylesheets/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=M+PLUS+1:wght@400;700&family=M+PLUS+1p:wght@100;300;400&family=M+PLUS+2:wght@400;700&family=Noto+Sans+JP&family=Poppins:ital,wght@0,700;1,200&display=swap"
+      rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- ハンバーガーメニューボタン -->
+      <div class="open-btn">
+        <span></span>
+        <span></span>
+      </div>
+      <a href="index.html" class="header_logoWrapper">
+        <img class="header_navLogoPc" src="./assets/images/common/awesome-logo-w.png" alt="top_access_logo">
+      </a>
+      <a href="index.html" class="pc-none">
+        <img class="header_navLogoSp" src="./assets/images/purpose/logo.png" alt="top_access_logo">
+      </a>
+      <div class="header_nav">
+        <ul class="header_navList">
+          <li class="header_navItem pc-none">
+            <a href="index.html" class="header_menuItem">TOP</a>
+          </li>
+          <li class="header_navItem dropdown">
+            <a href="company-info.html" class="header_menuItem">企業情報</a>
+            <!-- サブメニュー -->
+            <ul class="header_subMenuList">
+              <li class="header_subMenuLinkFirst">
+                <a class="header_subMenuItemInfo" href="company-info.html#outline">会社情報</a>
+              </li>
+              <li class="header_subMenuLinkSecond">
+                <a href="purpose.html#member-introduction" class="header_subMenuItemStaff">従業員紹介 / STAFF情報</a>
+              </li>
+              <li class="header_subMenuLinkThird">
+                <a class="header_subMenuItemAccess" href="company-info.html#access-information">アクセス/MAP</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header_navItem">
+            <a href="purpose.html" class="header_menuItem">PURPOSE</a>
+          </li>
+          <li class="header_navItem">
+            <a href="ceo-message.html" class="header_menuItem">CEOメッセージ</a>
+          </li>
+          <li class="header_navItem">
+            <a href="business-content.html" class="header_menuItem">事業内容</a>
+          </li>
+          <li class="header_navItem">
+            <a href="news-top.html" class="header_menuItem">NEWS</a>
+          </li>
+          <li class="header_navItem">
+            <a href="https://www.awesomese.co.jp/partners/" class="header_menuItem">パートナー募集</a>
+          </li>
+          <li class="header_navItem">
+            <a href="https://www.awesomese.co.jp/contact/" class="header_menuItem">お問い合わせ</a>
+          </li>
+          <a href="https://recruit.awesomese.co.jp/" target="_blank" rel="noopener noreferrer" class="header_menuItem">
+            <li class="header_navItem_yellow">特設採用サイト</li>
+          </a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- sp時のロード画面 -->
+      <div class="top_accessFirst pc-none">
+        <img class="top_accessLogo" src="./assets/images/common/awesome-logo-w.png" alt="top_access_logo">
+      </div>
+      <div class="topContainer">
+        <!-- 黄色の要素 -->
+        <div class="topYellowContent"></div>
+        <div class="topImageWrapper">
+          <img class="topImage" src="./assets/images/service/service-bg.png" alt="businessContent_topImage">
+        </div>
+        <div class="topMaskContainer">
+          <img class="topMaskImage" src="./assets/images/purpose/mask.png" alt="businessContent_topMask">
+        </div>
+        <h2 class="topPageTitle">SERVICE</h2>
+        <!-- sp時の黄色要素 -->
+        <div class="topYellowContentSp"></div>
+        <div class="topYellowContentSecond"></div>
+        <!-- 黄色の要素 -->
+      </div>
+      <div class="spGrayContentContainer">
+        <div class="spGrayFirstContent"></div>
+        <div class="spGraySecondContent"></div>
+      </div>
+      <div class="businessContent_container">
+        <div class="businessContent_content">
+          <h2 class="businessContent_title">「働く人×IT」</h2>
+          <p class="businessContent_subTitle">
+            日本のIT人材不足を解消し、イノベーティブなサービスをうみだす
+          </p>
+          <div class="businessContent_backgroundFirst">
+            <div class="businessContent_contentItemFirst">
+              <div class="businessContent_titleContainer">
+                <div class="businessContent_titleImageWrapper">
+                  <img class="businessContent_titleMark" src="./assets/images/common/title-mark.png" alt="title-mark">
+                </div>
+                <h2 class="businessContent_contentItemTitle">SES事業</h2>
+              </div>
+              <!-- pc要素 -->
+              <div class="businessContent_contentItemSentencePc">
+                <p>
+                  経済産業省の発表によると、2030年には最大約79万人ものエンジニアの不足が推計されています。世界中でIT化の波が押し寄せ、IT技術も格段に急成長を遂げています。多くの企業で最先端の技術に対応したIT人材の不足が深刻化している今、優秀なエンジニアの育成・輩出が求められています。
+                </p>
+                <p>私たちは「未経験の方でもエンジニアを目指せる」「一人ひとりが将来のストーリーを描ける」環境を用意し、起業家志向のエンジニアを育成。</p>
+                <p>自社独自の教育カリキュラムで即戦力となる自立型人材を育て、クライアント企業様のWeb開発現場へ派遣いたします。</p>
+                <p>特にJavaScriptの教育には力を入れており、SIer業界においても活躍できる人材を揃えております。</p>
+              </div>
+              <div class="businessContent_languagePc">
+                <p>◾️カリキュラム言語</p>
+                <p>【フロントエンド】</p>
+                <p>JavaScript（React, Angular, Vue.js）, HTML/CSS, TypeScript, Sass/LESS</p>
+                <p>【バックエンド】</p>
+                <p>Java, Node.js, PHP, Python, Ruby</p>
+              </div>
+              <!-- pc要素ここまで -->
+              <div class="businessContent_imageContainer">
+                <div class="businessContent_mainImageWrapper">
+                  <img class="businessContent_mainImage" src="./assets/images/service/service1-bg.png" alt="ses1">
+                </div>
+                <div class="businessContent_subImageWrapperLeft">
+                  <img class="businessContent_subImage" src="./assets/images/service/service1-image.png" alt="ses2">
+                </div>
+              </div>
+              <!-- sp要素 -->
+              <div class="businessContent_contentItemSentenceSp">
+                <p>
+                  経済産業省の発表によると、2030年には最大約79万人ものエンジニアの不足が推計されています。世界中でIT化の波が押し寄せ、IT技術も格段に急成長を遂げています。多くの企業で最先端の技術に対応したIT人材の不足が深刻化している今、優秀なエンジニアの育成・輩出が求められています。
+                </p>
+                <p>私たちは「未経験の方でもエンジニアを目指せる」「一人ひとりが将来のストーリーを描ける」環境を用意し、起業家志向のエンジニアを育成。</p>
+                <p>自社独自の教育カリキュラムで即戦力となる自立型人材を育て、クライアント企業様のWeb開発現場へ派遣いたします。</p>
+                <p>特にJavaScriptの教育には力を入れており、SIer業界においても活躍できる人材を揃えております。</p>
+              </div>
+              <div class="businessContent_languageSp">
+                <p>◾️カリキュラム言語</p>
+                <p>【フロントエンド】</p>
+                <p>JavaScript（React/Angular/Vue.js）, HTML/CSS, TypeScript, Sass/LESS</p>
+                <br>
+                <p>【バックエンド】</p>
+                <p>Java, Node.js, PHP, Python, Ruby</p>
+              </div>
+              <!-- sp要素ここまで -->
+            </div>
+
+            <div class="businessContent_contentItemSecond">
+              <div class="businessContent_titleContainer">
+                <div class="businessContent_titleImageWrapper">
+                  <img class="businessContent_titleMark" src="./assets/images/common/title-mark.png" alt="title-mark">
+                </div>
+                <h2 class="businessContent_contentItemTitle">受託開発事業</h2>
+              </div>
+              <!-- pc要素 -->
+              <div class="businessContent_contentItemSentencePc">
+                <p>顧客のニーズに合わせてITソリューションを提供し、ビジネスプロセスの改善や効率化を支援します。</p>
+                <p>ホームページ制作、LP（ランディングページ）制作、システム開発、Webアプリケーション開発等の開発事業を請け負います。</p>
+                <p>ホームページ、LP制作ではお客様のニーズに合わせてWebサイト、LP（ランディングページ）を制作します。</p>
+                <p>モバイル対応されたWebサイト、LPはお客様のビジネスを拡張するための最適なツールになります。</p>
+                <p>システム開発、カスタムソフトウェア開発では、業務効率を向上させるための特定のツールやアプリケーションを構築します。</p>
+              </div>
+              <div class="businessContent_languagePc">
+                <p>【フロントエンド】</p>
+                <p>主な使用言語 : HTML/CSS, JavaScript</p>
+                <p>【バックエンド】</p>
+                <p>主な使用言語 : Java, PHP, Python</p>
+              </div>
+              <!-- pc要素ここまで -->
+              <div class="businessContent_imageContainer">
+                <div class="businessContent_mainImageWrapper">
+                  <img class="businessContent_mainImage" src="./assets/images/service/service2-bg.png" alt="ses1">
+                </div>
+                <div class="businessContent_subImageWrapperRightFirst">
+                  <img class="businessContent_subImage" src="./assets/images/service/service2-image.png" alt="ses2/">
+                </div>
+              </div>
+              <!-- sp要素 -->
+              <div class="businessContent_contentItemSentenceSp">
+                <p>顧客のニーズに合わせてITソリューションを提供し、ビジネスプロセスの改善や効率化を支援します。</p>
+                <p>ホームページ制作、LP（ランディングページ）制作、システム開発、Webアプリケーション開発等の開発事業を請け負います。</p><br>
+                <p>ホームページ、LP制作ではお客様のニーズに合わせてWebサイト、LP（ランディングページ）を制作します。</p>
+                <p>モバイル対応されたWebサイト、LPはお客様のビジネスを拡張するための最適なツールになります。</p>
+                <p>システム開発、カスタムソフトウェア開発では、業務効率を向上させるための特定のツールやアプリケーションを構築します。</p>
+              </div>
+              <div class="businessContent_languageSp">
+                <p>【フロントエンド】</p>
+                <p>主な使用言語 : HTML/CSS, JavaScript</p>
+                <p>【バックエンド】</p>
+                <p>主な使用言語 : Java, PHP, Python</p>
+              </div>
+              <!-- sp要素ここまで -->
+            </div>
+          </div>
+
+          <div class="businessContent_backgroundSecond">
+            <div class="businessContent_contentItemThird">
+              <div class="businessContent_titleContainer">
+                <div class="businessContent_titleImageWrapper">
+                  <img class="businessContent_titleMark" src="./assets/images/common/title-mark.png" alt="title-mark">
+                </div>
+                <h2 class="businessContent_contentItemTitle">自社開発事業</h2>
+              </div>
+              <!-- pc要素 -->
+              <div class="businessContent_contentItemSentencePc">
+                <p>私たちは、3年以内に社会の課題を解決するための新しい商品やサービスを10個開発・提供します。</p>
+                <p>
+                  多くの企業では、採用担当や人事部門が情報技術（IT）に詳しくないため、IT関連の人材を見つけたり育てたりすることが難しく、望ましいソリューションがまだ不足しています。私たちは、顧客が「あったらいいな」と望むことや社会の課題を解決するためのシステムやサービスを提供します。
+                </p>
+              </div>
+              <!-- pc要素ここまで -->
+              <div class="businessContent_imageContainer">
+                <div class="businessContent_mainImageWrapper">
+                  <img class="businessContent_mainImage" src="./assets/images/service/service3-bg.png" alt="ses1">
+                </div>
+                <div class="businessContent_subImageWrapperRightSecond">
+                  <img class="businessContent_subImage" src="./assets/images/service/service3-image.png" alt="ses2">
+                </div>
+              </div>
+              <!-- sp要素 -->
+              <div class="businessContent_contentItemSentenceSp">
+                <p>私たちは、3年以内に社会の課題を解決するための新しい商品やサービスを10個開発・提供します。</p>
+                <p>
+                  多くの企業では、採用担当や人事部門が情報技術（IT）に詳しくないため、IT関連の人材を見つけたり育てたりすることが難しく、望ましいソリューションがまだ不足しています。私たちは、顧客が「あったらいいな」と望むことや社会の課題を解決するためのシステムやサービスを提供します。
+                </p>
+              </div>
+              <!-- sp要素ここまで -->
+            </div>
+
+            <div class="businessContent_contentItemFourth">
+              <div class="businessContent_titleContainer">
+                <div class="businessContent_titleImageWrapper">
+                  <img class="businessContent_titleMark" src="./assets/images/common/title-mark.png" alt="title-mark">
+                </div>
+                <h2 class="businessContent_contentItemTitle">教育事業</h2>
+              </div>
+              <!-- pc要素 -->
+              <div class="businessContent_contentItemSentencePc">
+                <p>エンジニアの育成に力を注ぐことで、技術力を高め、グローバル競争力を維持するお手伝いをしたいと思っています。</p>
+                <p>具体的には以下の5つのようなスキル習得をサポートします。</p>
+                <p>1.プログラミング言語とソフトウェア開発：プログラミング言語（例：Python, JavaScript, Javaなど）の基礎から応用までを学び、ソフトウェア開発のスキルを磨きます。</p>
+                <p>2.データ構造とアルゴリズム：データの組織化と高効率なアルゴリズムの設計・実装を学び、効率的なプログラムの作成能力を養います。</p>
+                <p>3.データベース管理：データベースの設計、クエリの作成、データベースシステムの管理など、データベースのスキルを習得します。</p>
+                <p>4.システム設計とアーキテクチャ：大規模なシステムの設計、ソフトウェアアーキテクチャ、セキュリティ対策などに関する知識を習得し、システム全体を理解できるようになります。</p>
+                <p>5.プロジェクト管理とチームワーク：プロジェクトの計画、スケジュール管理、チームコラボレーション、コミュニケーションスキルなど、プロジェクトの成功に必要なスキル磨きます。
+                </p>
+              </div>
+              <!-- pc要素ここまで -->
+              <div class="businessContent_imageContainer">
+                <div class="businessContent_mainImageWrapper">
+                  <img class="businessContent_mainImage" src="./assets/images/service/service-4-bg.png" alt="ses1">
+                </div>
+                <div class="businessContent_subImageWrapperLeftSecond">
+                  <img class="businessContent_subImageF" src="./assets/images/service/service4-image.png" alt="ses2">
+                </div>
+              </div>
+              <!-- sp要素 -->
+              <div class="businessContent_contentItemSentenceSp">
+                <p>エンジニアの育成に力を注ぐことで、技術力を高め、グローバル競争力を維持するお手伝いをしたいと思っています。</p>
+                <p>具体的には以下の5つのようなスキル習得をサポートします。</p>
+                <br>
+                <p>1.プログラミング言語とソフトウェア開発：プログラミング言語（例：Python, JavaScript, Javaなど）の基礎から応用までを学び、ソフトウェア開発のスキルを磨きます。</p><br>
+                <p>2.データ構造とアルゴリズム：データの組織化と高効率なアルゴリズムの設計・実装を学び、効率的なプログラムの作成能力を養います。</p><br>
+                <p>3.データベース管理：データベースの設計、クエリの作成、データベースシステムの管理など、データベースのスキルを習得します。</p><br>
+                <p>4.システム設計とアーキテクチャ：大規模なシステムの設計、ソフトウェアアーキテクチャ、セキュリティ対策などに関する知識を習得し、システム全体を理解できるようになります。</p><br>
+                <p>5.プロジェクト管理とチームワーク：プロジェクトの計画、スケジュール管理、チームコラボレーション、コミュニケーションスキルなど、プロジェクトの成功に必要なスキル磨きます。
+                </p>
+              </div>
+              <!-- sp要素ここまで -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_menuContainer">
+        <div class="footer_menuContent_top">
+          <a href="privacy-policy.html" class="footer_menuItem">
+            プライバシーポリシー
+          </a>
+          <p>/</p>
+          <a href="https://recruit.awesomese.co.jp/" target="_blank" rel="noopener noreferrer" class="footer_menuItem">
+            特設採用サイト
+          </a>
+        </div>
+        <div class="footer_menuContent">
+          <a href="company-info.html" class="footer_menuItem">企業情報</a>
+          <a href="purpose.html" class="footer_menuItem">PURPOSE</a>
+          <a href="ceo-message.html" class="footer_menuItem">CEOメッセージ</a>
+          <a href="business-content.html" class="footer_menuItem">事業内容</a>
+          <a href="news-top.html" class="footer_menuItem">NEWS</a>
+          <a href="https://www.awesomese.co.jp/partners/" class="footer_menuItem">パートナー募集</a>
+          <a href="https://www.awesomese.co.jp/contact/" class="footer_menuItem">お問い合わせ</a>
+        </div>
+      </div>
+      <div class="footer_infoContainer">
+        <a href="index.html">
+          <img class="footer_infoLogo" src="./assets/images/common/footer-logo-w.png" alt="footer-logo">
+        </a>
+        <div class="footer_infoContent">
+          <p class="footer_infoText">株式会社AWESOME SE</p>
+          <p class="footer_infoText">〒150-0043</p>
+          <p class="footer_infoText">東京都渋谷区道玄坂1-21-1 SHIBUYA SOLASTA3F</p>
+        </div>
+      </div>
+      <div class="footer_otherLinks">
+        <a href="https://www.wantedly.com/companies/company_4263103" target="_blank" rel="noreferrer">
+          <img src="./assets/images/common/wantedly.png" class="footer-wantedlyLink">
+        </a>
+        <a href="https://www.wantedly.com/companies/company_4263103" target="_blank" rel="noreferrer">
+          <img src="./assets/images/common/x.png" class="footer-xLink">
+        </a>
+      </div>
+      <small class="footer_copyright">
+        Copyright &copy; AWESOME SE All Rights Reserved.
+      </small>
+    </footer>
+  </body>
+
+</html>

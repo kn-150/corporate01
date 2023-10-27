@@ -1,0 +1,317 @@
+/* main =================================*/
+/* main-title =================================*/
+.ses_mainTitleArea {
+  padding: 100px;
+}
+.ses_mainTitle {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.ses_subTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* main-article =================================*/
+/* 背景 */
+.ses_backgroundArea {
+  background: linear-gradient(
+    90deg,
+    #f6f6f1 0%,
+    #f6f6f1 65%,
+    #ffffff 65%,
+    #ffffff 100%
+  );
+}
+.ses_contentArticleArea {
+  padding: 8% 10%;
+  position: relative;
+}
+.ses_contentItemMark1 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 13%;
+  left: 8%;
+}
+.ses_contentItemMark2 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 8%;
+  left: 8%;
+}
+.ses_contentItemMark3 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 16%;
+  left: 8%;
+}
+.ses_contentItemMark4 {
+  position: absolute;
+  width: 80px;
+  height: 132px;
+  top: 4.5%;
+  left: 8%;
+}
+.ses_contentTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.ses_contentItemText {
+  line-height: 2em;
+}
+.ses_contentImage {
+  height: 480px;
+}
+.ses_contentItemBox {
+  display: flex;
+  justify-content: space-between;
+}
+.ses_contentItem {
+  width: 300px;
+}
+.ses_contentItemImage {
+  width: 300px;
+}
+.ses_contentItemParagraph {
+  padding: 10px;
+}
+.ses_contentItemTitle {
+  font-weight: bold;
+  font-size: 26px;
+  margin: 20px 0;
+}
+.ses_contentImageBoxReverse {
+  display: flex;
+  justify-content: right;
+}
+
+/* main-skill =================================*/
+.ses_backgroundAreaReverse {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 35%,
+    #f6f6f1 35%,
+    #f6f6f1 100%
+  );
+}
+.ses_contentSkillArea {
+  position: relative;
+  margin-top: 100px;
+  padding: 8% 10%;
+}
+.ses_contentSkillTitle {
+  font-size: 32px;
+  margin-bottom: 150px;
+  font-weight: bold;
+}
+.ses_contentSkill {
+  margin-top: 80px;
+}
+.ses_contentSkillSubTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+.ses_border {
+  border-bottom: 5px solid #000000;
+  width: 7%;
+  margin: 20px 0;
+}
+.ses_contentSkillItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+}
+.ses_contentSkillLanguageBox {
+  width: 128px;
+  height: 128px;
+  background-color: #b1e3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ses_contentSkillLanguageBox:last-child {
+  background-color: rgba(177, 227, 243, 0.3);
+}
+.ses_contentSkillLanguage {
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+}
+.ses_contentSkillFrameBox {
+  width: 128px;
+  height: 128px;
+  background-color: #ade1d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ses_contentSkillFrameBox:last-child {
+  background-color: rgba(173, 225, 213, 0.3);
+}
+.ses_contentSkillFrame {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ses_contentSkillInfraBox {
+  width: 128px;
+  height: 128px;
+  background-color: #f9f0ab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ses_contentSkillInfraBox:last-child {
+  background-color: rgba(249, 240, 171, 0.5);
+}
+.ses_contentSkillInfra {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* レスポンシブ対応 */
+/* タブレット */
+@media screen and (max-width: 768px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .ses_mainTitle {
+    font-size: 28px;
+  }
+  .ses_subTitle {
+    font-size: 18px;
+  }
+  .ses_contentImage {
+    height: 280px;
+  }
+
+  /* main-article =================================*/
+  .ses_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 6%;
+    left: 8%;
+  }
+  .ses_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 2%;
+    left: 8%;
+  }
+  .ses_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 8.5%;
+    left: 8%;
+  }
+  .ses_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 2%;
+    left: 8%;
+  }
+  .ses_contentTitle {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .ses_contentItemBox {
+    display: block;
+  }
+  .ses_contentItem {
+    margin: 10px auto 0;
+  }
+  .ses_contentItemTitle {
+    font-size: 18px;
+  }
+
+  /* main-skill =================================*/
+  .ses_contentSkillTitle {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .ses_contentSkill {
+    margin-top: 50px;
+  }
+  .ses_contentSkillSubTitle {
+    font-size: 20px;
+  }
+  .ses_contentSkillItem {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+  }
+}
+
+
+/* スマホ */
+@media screen and (max-width: 420px) {
+  /* main =================================*/
+  /* main-title =================================*/
+  .ses_mainTitleArea {
+    padding: 50px;
+  }
+  .ses_mainTitle {
+    font-size: 20px;
+  }
+  .ses_subTitle {
+    font-size: 10px;
+  }
+  .ses_contentImage {
+    height: 150px;
+  }
+
+  /* main-article =================================*/
+  .ses_contentItemMark1 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 3.5%;
+    left: 8%;
+  }
+  .ses_contentItemMark2 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 1.5%;
+    left: 8%;
+  }
+  .ses_contentItemMark3 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 5.5%;
+    left: 8%;
+  }
+  .ses_contentItemMark4 {
+    position: absolute;
+    width: 50px;
+    height: 82px;
+    top: 0.3%;
+    left: 8%;
+  }
+
+  /* main-skill =================================*/
+  .ses_contentSkillItem {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+  .ses_contentSkillLanguageBox,
+  .ses_contentSkillFrameBox,
+  .ses_contentSkillInfraBox {
+    margin: 0 auto;
+    background-color: #d9d9d9;
+  }
+  .ses_contentSkillLanguageBox:last-child,
+  .ses_contentSkillFrameBox:last-child,
+  .ses_contentSkillInfraBox:last-child {
+    background-color: #f6f6f6;
+  }
+}
